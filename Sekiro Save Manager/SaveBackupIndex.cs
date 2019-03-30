@@ -45,11 +45,11 @@ namespace Sekiro_Save_Manager
             XmlNode rootNode = xmlDoc.CreateElement("profiles");
             xmlDoc.AppendChild(rootNode);
 
-            XmlNode profileNode = xmlDoc.CreateElement("profile");
-            rootNode.AppendChild(profileNode);
-
             foreach (var profile in _profiles)
             {
+                XmlNode profileNode = xmlDoc.CreateElement("profile");
+                rootNode.AppendChild(profileNode);
+
                 XmlNode backupNode = xmlDoc.CreateElement("backup_location");
                 backupNode.InnerText = profile.BackupLocation;
                 profileNode.AppendChild(backupNode);
