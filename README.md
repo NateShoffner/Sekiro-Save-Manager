@@ -3,6 +3,8 @@ Sekiro Save Manager
 
 [![Build status](https://ci.appveyor.com/api/projects/status/5g2kom2uaukt8w0s?svg=true)](https://ci.appveyor.com/project/NateShoffner/sekiro-save-manager)
 
+![Backups](https://i.imgur.com/4haCPAs.png)
+![Options](https://i.imgur.com/kKHeIl9.png)
 
 Sekiro Save Manager is a Windows game save utility for easily backing up and restoring game saves for Sekiro: Shadows Die Twice.
             
