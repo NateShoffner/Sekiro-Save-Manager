@@ -233,6 +233,7 @@ namespace Sekiro_Save_Manager.Forms
             var saveBackup = new SaveBackup(destination, source, "", DateTime.Now);
             _saveBackupIndex.Add(saveBackup);
             _saveBackupIndex.Save(BackupIndexName);
+            LoadBackups();
         }
 
         private void RestoreBackup(string source, string destination)
